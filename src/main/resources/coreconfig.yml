@@ -1,0 +1,200 @@
+treasuremanage:
+  power: 50
+repairmanager:
+  money:
+    svip: 500
+    vip: 650
+    default: 900
+  level:
+    svip: 30
+    vip: 35
+    default: 40
+protectionmanager:
+  protectiontime: 1
+enablemanager:
+  punch:
+    status: false
+    cooldown: false
+    delay: 10000
+  strenght: false
+  safe: true
+  enderpearl:
+    delay: 10
+  fishingrod: true
+  snowball: false
+slotmanager:
+  slots: 500
+  multipler: 1.2
+automessage:
+  interval: 60
+clearlag:
+  interval: 60
+escape:
+  time: 25
+chatmanager:
+  slowmode: 15
+  kills: 0
+  format:
+    global: '&8~&d{KILLS} {TAG}{PREFIX}{PLAYER}&8: &7{SUFFIX}{MESSAGE}'
+    aglobal: '{TAG}{PREFIX}{PLAYER}&8: {SUFFIX}{MESSAGE}'
+    guild: '&8[&7{TAG}&8] '
+kit:
+  vip:
+    time: 86400000
+    status: false
+  svip:
+    time: 86400000
+    status: false
+  jedzenie:
+    time: 300000
+    status: true
+  admin:
+    time: 86400000
+    status: true
+limitmanager:
+  kox: 2
+  ref: 10
+  pearl: 1
+  snowball: 8
+  arrows: 16
+dropmanager:
+  money:
+    default: 50
+    vip: 65
+    svip: 80
+  level:
+    default: 0
+    vip: 1
+    svip: 1
+  diamond:
+    default: 1
+    vip: 1
+    svip: 1
+    chance:
+      default: 25
+      vip: 30
+      svip: 35
+  key:
+    chance:
+      default: 1
+      vip: 1.5
+      svip: 2.25
+  exp:
+    min: 8
+    max: 32
+levelmanager:
+  diamondlevel: 100
+  broadcastatlevel:
+    - 5
+    - 10
+    - 15
+    - 20
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 55
+    - 60
+    - 65
+    - 70
+    - 75
+    - 80
+    - 85
+    - 90
+    - 95
+    - 100
+    - 105
+    - 110
+    - 115
+    - 120
+    - 130
+    - 140
+    - 150
+    - 160
+    - 170
+    - 180
+    - 190
+    - 200
+antymacromanager:
+  cpsamount: 15
+killstreakmanager:
+  broadcastkillstreak:
+    - 25
+    - 50
+    - 75
+    - 100
+    - 125
+    - 150
+    - 175
+    - 200
+    - 250
+    - 300
+    - 350
+    - 400
+    - 450
+    - 500
+    - 550
+    - 600
+    - 650
+    - 700
+    - 750
+    - 800
+    - 850
+    - 900
+    - 1000
+    - 1050
+    - 1100
+    - 1150
+    - 1200
+    - 1250
+    - 1300
+    - 1350
+    - 1400
+    - 1500
+    - 1600
+    - 1700
+    - 1800
+    - 1900
+    - 2000
+    - 2500
+    - 3000
+    - 3500
+    - 4000
+    - 4500
+    - 5000
+    - 5500
+    - 6000
+    - 7000
+    - 8000
+    - 9000
+    - 10000
+createmanager:
+  diamond:
+    time: -1
+  enchant:
+    time: 1588964417876
+combatmanager:
+  blockedcmd:
+    - /replay
+    - /msg
+    - /helpop
+    - /r
+    - /refresh
+spawnmanager:
+  spawnlist:
+    - world,-122.46693263601932,90.0625,258.84178405433613,22,-2
+superadmins:
+  names:
+    - CzarnaWoda
+    - BaoBao96
+    - xHuskyPL
+teleportmanager:
+  randomwarponjoin: false
+  randomspawnonjoin: true
+sectors:
+  currentsectorname: "spawn1"
+  redis:
+    server: 1.1.1.1
+    password: "xxxxxx"

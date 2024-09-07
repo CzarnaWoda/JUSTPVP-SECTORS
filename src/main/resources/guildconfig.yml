@@ -1,0 +1,49 @@
+cost:
+  create:
+    normal: 57-0-64;322-0-64;42-0-64;41-0-64;
+    vip: 57-0-32;322-0-32;42-0-32;41-0-32;
+    lvl: true
+  join:
+    normal: 264-0-78;
+  leader:
+    normal: 264-0-128;
+  owner:
+    normal: 264-0-128;
+  enlarge:
+    normal: 264-0-56;
+  limit:
+    normal: 264-0-364;
+  expire:
+    normal: 264-0-350;
+  prolong:
+    normal: 264-0-350;
+  effect:
+    normal: 264-0-350;
+actions:
+  protectedid:
+    - 54
+guilds:
+  create:
+    time: 1552918102893
+multipler: 1.0
+tag:
+  headadmin:
+    suffix: ' &8| &4HA'
+  admin:
+    suffix: ' &8| &4A'
+  moderator:
+    suffix: ' &8| &2M'
+  helper:
+    suffix: ' &8| &3H'
+  mvip:
+    suffix: ' &8| &6MVIP'
+  svip:
+    suffix: ' &8| &6SVIP'
+  vip:
+    suffix: ' &8| &6VIP'
+warmanager:
+  preparetime: "10m"
+  wartime: "1h"
+  prizeamount: 30
+enablemanager:
+  war: true

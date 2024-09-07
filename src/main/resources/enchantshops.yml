@@ -1,0 +1,109 @@
+enchantsize: '&4Blad: &7Maksymalnie Mozna Posiadac 3 Enchanty Na 1 Przedmiocie'
+closed: '&cAnulowanie transakcji, przedmiot zostal zwrocony nienaruszony.'
+success: '&aPomyslnie zaplaciles $%money% i zaklnales swoj przedmiot na %enchantment% poziomu %level%'
+no-money: '&cNiestety, nie posiadasz takiej ilosci pieniedzy. Potrzebujesz jeszcze $%difference%'
+vip-discount: 0.75 # percent
+gui:
+  1:
+    rows: 6
+    title: '&8*  &6Wybierz przedmiot  &8*'
+    lores:
+      - '&eWybierz ten przedmiot aby go zenchantowac'
+      - '&eMaksymalnie Na Jednym Przedmiocie Mozna Miec 3 Enchanty'
+  2:
+    rows: 1 # jezeli masz wiecej niz 9 enchantmentow - zwieksz to!
+    title: '&8*  &6Wybierz zaklecie  &8*'
+    enchantments:
+      sharpness:
+        item: DIAMOND_SWORD
+        name: '&c&lSharpness'
+        lore: '&6Kliknij aby wybrac zaklecie ostrosci'
+      fireaspect:
+        item: BEACON
+        name: '&c&lFire Aspect'
+        lore: '&6Kliknij aby wybrac zaklecie ognia'
+      protection:
+        item: DIAMOND_LEGGINGS
+        name: '&c&lProtection'
+        lore: '&6Kliknij aby wybrac zaklecie protection'
+      unbreaking:
+        item: ANVIL
+        name: '&c&lUnbreaking'
+        lore: '&6Kliknij aby wybrac zaklecie unbreaking'
+      knockback:
+        item: IRON_SWORD
+        name: '&c&lKnockBack'
+        lore: '&6Kliknij aby wybrac zaklecie knockback'
+      punch:
+        item: ARROW
+        name: '&c&lPower'
+        lore: '&6Kliknij aby wybrac zaklecie punch'
+      thorns:
+        item: DIAMOND_CHESTPLATE
+        name: '&c&lThorns'
+        lore: '&6Kliknij aby wybrac zaklecie thorns'
+      looting:
+        item: LEATHER
+        name: '&c&lLooting'
+        lore: '&6Kliknij aby wybrac zaklecie looting'
+      # etc
+  3:
+    rows: 1
+    title: '&8*  &eWybierz poziom  &8*'
+    levels:
+      sharpness:
+        enchantment: sharpness
+        item: EXP_BOTTLE
+        levels: 4
+        name: '&c&lLevel %level%'
+        lore: '&6Cena: &e%price%'
+        price: 1250
+      fireaspect:
+        enchantment: fireaspect
+        item: EXP_BOTTLE
+        levels: 1
+        name: '&c&lLevel %level%'
+        lore: '&6Cena: &e%price%'
+        price: 2000
+      protection:
+        enchantment: protection
+        item: EXP_BOTTLE
+        levels: 4
+        name: '&c&lLevel %level%'
+        lore: '&6Cena: &e%price%'
+        price: 1050
+      unbreaking:
+        enchantment: unbreaking
+        item: EXP_BOTTLE
+        levels: 3
+        name: '&c&lLevel %level%'
+        lore: '&6Cena: &e%price%'
+        price: 1200
+      knockback:
+        enchantment: knockback
+        item: EXP_BOTTLE
+        levels: 2
+        name: '&c&lLevel %level%'
+        lore: '&6Cena: &e%price%'
+        price: 1500
+      punch:
+        enchantment: power
+        item: EXP_BOTTLE
+        levels: 3
+        name: '&c&lLevel %level%'
+        lore: '&6Cena: &e%price%'
+        price: 1600
+      thorns:
+        enchantment: thorns
+        item: EXP_BOTTLE
+        levels: 3
+        name: '&c&lLevel %level%'
+        lore: '&6Cena: &e%price%'
+        price: 1000
+      looting:
+        enchantment: looting
+        item: EXP_BOTTLE
+        levels: 3
+        name: '&c&lLevel %level%'
+        lore: '&6Cena: &e%price%'
+        price: 950

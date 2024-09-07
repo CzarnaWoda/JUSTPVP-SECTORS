@@ -1,0 +1,44 @@
+dropconfig:
+  drop:
+    vip_drop: 0.5
+    vip_exp: 1
+    turbo_drop: 1.0
+    turbo_exp: 1
+    turbo_losowanie_ilosc: 3
+    obsidian_amount: 1
+    lvl_broadcast:
+      - 1
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 100
+      - 105
+      - 110
+      - 115
+      - 120
+    chest_name: justpvp
+    chest_time: 0
+  message:
+    sklep: sklep.justpvp.pl
+  coins:
+    status: false
+    min: 5
+    max: 25
+  event:
+    exp: 50
+    drop: 100

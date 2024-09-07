@@ -1,0 +1,82 @@
+tablist:
+  header: "&8->> &6JustPvP.PL &8* &cChestPvP &8<<-"
+  footer: "&8->> &6Discord: &cdiscord.justpvp.pl &8| &6Ts3: &cjust24.pl &8| &6FanPage: &cfb.com/justpvppl &8<<-"
+  2: "&8->> &cTOPOWI GRACZE:"
+  3: "&8[&c{TABLISTTYPE}&8]"
+  4: "{PTOP-1}"
+  5: "{PTOP-2}"
+  6: "{PTOP-3}"
+  7: "{PTOP-4}"
+  8: "{PTOP-5}"
+  9: "{PTOP-6}"
+  10: "{PTOP-7}"
+  11: "{PTOP-8}"
+  12: "{PTOP-9}"
+  13: "{PTOP-10}"
+  14: "{PTOP-11}"
+  15: "{PTOP-12}"
+  16: "{PTOP-13}"
+  17: "{PTOP-14}"
+  18: "{PTOP-15}"
+  19: "{PTOP-16}"
+
+  22: "&8->> &cTOPOWE GILDIE:"
+  24: "{GTOP-1}"
+  25: "{GTOP-2}"
+  26: "{GTOP-3}"
+  27: "{GTOP-4}"
+  28: "{GTOP-5}"
+  29: "{GTOP-6}"
+  30: "{GTOP-7}"
+  31: "{GTOP-8}"
+  32: "{GTOP-9}"
+  33: "{GTOP-10}"
+  34: "{GTOP-11}"
+  35: "{GTOP-12}"
+  36: "{GTOP-13}"
+  37: "{GTOP-14}"
+  38: "{GTOP-15}"
+  39: "{GTOP-16}"
+
+  42: "&8->> &cSTATYSTYKI:"
+  44: "&8>> &6Zabojstwa: &c{KILLS}"
+  45: "&8>> &6Smierci: &c{DEATHS}"
+  46: "&8>> &6Killstreak: &c{KILLSTREAK}"
+  47: "&8>> &6Logouty: &c{LOGOUTS}"
+  48: "&8>> &6KDr: &c{KDR}"
+  49: "&8>> &6Level: &c{LEVEL}"
+  50: "&8>> &6Monety: &c{MONEY}"
+  52: "&8->> &cTWOJA GILDIA:"
+  54: "&8>> &6TAG: &c{G-TAG}"
+  55: "&8>> &6Punkty: &c{G-POINTS}"
+  56: "&8>> &6Zabojstwa: &c{G-KILLS}"
+  57: "&8>> &6Smierci: &c{G-DEATHS}"
+  58: "&8>> &6Dusze: &c{G-SOUL}"
+  59: "&8>> &6Online: &c{G-ONLINE}"
+
+  62: "&8->> &cINFORMACJE:"
+  64: "&8>> &6Ranga: &c{RANK}"
+  65: "&8>> &6Ping: &c{PING}"
+  66: "&8>> &6Online od: &c{TIMEFROMJOIN}"
+  67: "&8>> &6TurboMoney: &c{P-ISTURBOMONEY}"
+  68: "&8>> &6TurboDrop: &c{P-ISTURBODROP}"
+  69: "&8>> &6TurboEXP: &c{P-ISTURBOEXP}"
+  70: "&8>> &6Event DROP/EXP: &c{ISEVENT}"
+  72: "&8->> &cSERWER:"
+  74: "&8>> &6Online: &c{ONLINE}"
+  75: "&8>> &6Aktualny sektor: &c{SECTOR}"
+  76: "&8>> &6Unikalnych G.: &c{REGISTERPLAYERS}"
+  77: "&8>> &6Liczba aukcji: &c{AUCTIONSIZE}"
+  78: "&8>> &6TPS: &c{TPS}"
+  79: "&8>> &6PvP: &c{PVP}"
+
+
+
+
+
+
+
+
+
+
+

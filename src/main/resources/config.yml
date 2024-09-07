@@ -1,0 +1,21 @@
+config:
+  enabled: true
+  database:
+    mode: mysql
+    tableprefix: chestpvp_
+    mysql:
+      host: localhost
+      port: 3306
+      user: root
+      pass: dasdasdasdasd
+      name: chestpvp
+    sqlite:
+      name: minecraft.db
+    server:
+      type: chestpvp
+  socket:
+    password: ZAQ!2wsx
+    port: 1337
+  api:
+    gui:
+      name: '&c&lAPI Manager'

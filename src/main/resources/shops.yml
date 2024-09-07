@@ -1,0 +1,266 @@
+buy:
+  message:
+    enoughtmoney: '&4Blad: &cNie posiadasz wystarczajacej liczby pieniedzy!'
+    finalbuy: '&2Wymiana przebiegla pomyslnie!'
+sell:
+  message:
+    enoughtitem: '&4Blad: &cNie posiadasz tego przedmiotu &8(&4{ITEM}x{AMOUNT}&8)&c!'
+    finalsell: '&2Wymiana przebiegla pomyslnie, zarobiles {MONEY}$'
+trade:
+  message:
+    enoughtitem: '&4Blad: &cNie posiadasz tego przedmiotu &8(&4{ITEM}x{AMOUNT}&8)&c!'
+    finaltrade: '&2Wymiana przebiegla pomyslnie!'
+buygui:
+  name: '&8|->> &2Kupowanie przedmiotow'
+  rows: 4
+sellgui:
+  name: '&8|->> &2Sprzedawanie przedmiotow'
+  rows: 5
+tradegui:
+  name: '&8|->> &2Wymiana przedmiotow'
+  rows: 3
+buyitem:
+  lore:
+    - ''
+    - '  &8->> &7Kup za: &a{COST}$'
+sellitem:
+  lore:
+    - ''
+    - '  &8->> &7Sprzedaj za: &a{COST}$'
+levelitem:
+  lore:
+    - '&8>> &7Kup Za: &6{ITEM}&8x&6{COST}'
+    - '&8>> &7Kliknij &6&lLPM &7aby kupic'
+tradeitems:
+  lore:
+    - ''
+    - '  &8->> &7Kup za: &a{COST_ITEM}x{COST_AMOUNT}'
+buymenu:
+  1:
+    name: '&8|->> &2Diament &8* &91'
+    cost: 35
+    item: DIAMOND
+    data: 0
+    amount: 1
+  2:
+    name: '&8|->> &2Diament &8* &932'
+    cost: 1120
+    item: DIAMOND
+    data: 0
+    amount: 32
+  3:
+    name: '&8|->> &2Diament &8* &964'
+    cost: 2240
+    item: DIAMOND
+    data: 0
+    amount: 64
+  4:
+    name: '&8|->> &2Zloto &8* &91'
+    cost: 25
+    item: GOLD_INGOT
+    data: 0
+    amount: 1
+  5:
+    name: '&8|->> &2Zloto &8* &932'
+    cost: 800
+    item: GOLD_INGOT
+    data: 0
+    amount: 32
+  6:
+    name: '&8|->> &2Zloto &8* &964'
+    cost: 1600
+    item: GOLD_INGOT
+    data: 0
+    amount: 64
+  7:
+    name: '&8|->> &2Mikstura EXP &8* &91'
+    cost: 40
+    item: EXP_BOTTLE
+    data: 0
+    amount: 1
+  8:
+    name: '&8|->> &2Mikstura EXP &8* &932'
+    cost: 1280
+    item: EXP_BOTTLE
+    data: 0
+    amount: 32
+  9:
+    name: '&8|->> &2Mikstura EXP &8* &964'
+    cost: 2560
+    item: EXP_BOTTLE
+    data: 0
+    amount: 64 
+  10:
+    name: '&8|->> &2Kox &8* &91'
+    cost: 2000
+    item: GOLDEN_APPLE
+    data: 1
+    amount: 1
+  11:
+    name: '&8|->> &2Refil &8* &91'
+    cost: 400
+    item: GOLDEN_APPLE
+    data: 0
+    amount: 1
+  12:
+    name: '&8|->> &2Perla EnderMana &8* &91'
+    cost: 3000
+    item: ENDER_PEARL
+    data: 0
+    amount: 1
+  13:
+    name: '&8|->> &2Jablko &8* &91'
+    cost: 200
+    item: APPLE
+    data: 0
+    amount: 1
+  14:
+    name: '&8|->> &2Drewno &8* &91'
+    cost: 200
+    item: WOOD
+    data: 0
+    amount: 1
+  15:
+    name: '&8|->> &2Zelazo &8* &91'
+    cost: 20
+    item: IRON_INGOT
+    data: 0
+    amount: 1
+  16:
+    name: '&8|->> &2Zelazo &8* &932'
+    cost: 640
+    item: IRON_INGOT
+    data: 0
+    amount: 32
+  17:
+    name: '&8|->> &2Zelazo &8* &964'
+    cost: 1280
+    item: IRON_INGOT
+    data: 0
+    amount: 64  
+  18:
+    name: '&8|->> &2Klucz ChestPvP &8* &91'
+    cost: 3000
+    item: TRIPWIRE_HOOK
+    data: 0
+    amount: 1
+sellmenu:
+  1:
+    name: '&8|->> &2Diament &8* &91'
+    sellmoney: 15
+    item: DIAMOND
+    data: 0
+    amount: 1
+  2:
+    name: '&8|->> &2Zloto &8* &91'
+    sellmoney: 10
+    item: GOLD_INGOT
+    data: 0
+    amount: 1
+  3:
+    name: '&8|->> &2Mikstura EXP &8* &91'
+    sellmoney: 10
+    item: EXP_BOTTLE
+    data: 0
+    amount: 1
+  4:
+    name: '&8|->> &2Kox &8* &91'
+    sellmoney: 1000
+    item: GOLDEN_APPLE
+    data: 1
+    amount: 1
+  5:
+    name: '&8|->> &2Refil &8* &91'
+    sellmoney: 100
+    item: GOLDEN_APPLE
+    data: 0
+    amount: 1
+  6:
+    name: '&8|->> &2Perla EnderMana &8* &91'
+    sellmoney: 1000
+    item: ENDER_PEARL
+    data: 0
+    amount: 1
+  7:
+    name: '&8|->> &2Jablko &8* &91'
+    sellmoney: 50
+    item: APPLE
+    data: 0
+    amount: 1
+  8:
+    name: '&8|->> &2Drewno &8* &91'
+    sellmoney: 20
+    item: WOOD
+    data: 0
+    amount: 1
+  9:
+    name: '&8|->> &2Drewno &8* &91'
+    sellmoney: 20
+    item: WOOD
+    data: 3
+    amount: 1
+  10:
+    name: '&8|->> &2Drewno &8* &91'
+    sellmoney: 20
+    item: WOOD
+    data: 2
+    amount: 1
+  11:
+    name: '&8|->> &2Zelazo &8* &91'
+    sellmoney: 5
+    item: IRON_INGOT
+    data: 0
+    amount: 1
+  12:
+    name: '&8|->> &2Ksiazka &8* &91'
+    sellmoney: 5
+    item: BOOK
+    data: 0
+    amount: 1
+  13:
+    name: '&8|->> &2Glowa Zombie &8* &91'
+    sellmoney: 500
+    item: SKULL_ITEM
+    data: 2
+    amount: 1
+  14:
+    name: '&8|->> &2Glowa Creeper &8* &91'
+    sellmoney: 500
+    item: SKULL_ITEM
+    data: 4
+    amount: 1
+  15:
+    name: '&8|->> &2Glowa Skeleton &8* &91'
+    sellmoney: 500
+    item: SKULL_ITEM
+    data: 0
+    amount: 1
+  16:
+    name: '&8|->> &2Lapis Lazuli &8* &91'
+    sellmoney: 75
+    item: INK_SACK
+    data: 4
+    amount: 1
+  17:
+    name: '&8|->> &2Cobblestone &8* &91'
+    sellmoney: 2
+    item: COBBLESTONE
+    data: 0
+    amount: 1
+tradeitem:
+  1:
+    name: '&8|->> &2Diamentowy Kilof 6/3/3 &8* &91'
+    cost_item: NETHER_STAR
+    cost_amount: 364
+    item: DIAMOND_PICKAXE
+    data: 0
+    amount: 1
+    enchantments:
+      - 'efficiency'
+      - 'unbreaking'
+      - 'fortune'
+    enchantmentslevel:
+      - '6'
+      - '3'
+      - '3'
+

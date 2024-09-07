@@ -1,0 +1,5 @@
+storage:
+  daycost: 200
+  #dni
+  maxexpiretime: 14
+  addmembercost: 1000

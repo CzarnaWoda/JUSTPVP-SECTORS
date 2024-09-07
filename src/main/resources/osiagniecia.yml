@@ -1,0 +1,2160 @@
+#Typy BREAK_STONE,EAT_KOX,KILLS,OPEN_CHEST,THROW_PEARL,EAT_REFIL
+message:
+  osiagniecie:
+    - '&8|->>           &3&lOSIAGNIECIE           &8<<-|'
+    - '&8  * &7Gracz &a{PLAYER} &7zdobyl osiagniecie &a{OSIAGNIECIE}'
+    - '{COMPOSITION}'
+    - '&8|->>           &3&lOSIAGNIECIE           &8<<-|'
+  composition:
+    text: '&8  * &7Zobacz swoja liste &aosiagniec&7!'
+    command: /os
+    hidetext: '&4Sprawdz swoje osiagniecia!'
+  titlesend:
+    title: '&6&lGratulacje'
+    subtitle: '&8>> &7Zdobyto Osiagniecie ! &8<<'
+osiagniecia:
+  'kills1':
+    name: 'KillMaster I'
+    gui_item: WOOD_SWORD
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KillMaster I'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zabojstwa: &c{AMOUNT}&8/&a150'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &6550'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zabojstwa: &a{AMOUNT}&8/&a150'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &6550'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: KILLS
+    amount_toachivment: 150
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 550
+    reward_keys:
+      - JustPvP
+    reward_keysamount:
+      - 2
+  'kills2':
+    name: 'KillMaster II'
+    gui_item: WOOD_SWORD
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KillMaster II'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zabojstwa: &c{AMOUNT}&8/&a300'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &61150'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &64 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zabojstwa: &a{AMOUNT}&8/&a300'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &61150'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &64 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: KILLS
+    amount_toachivment: 300
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 1150
+    reward_keys:
+      - JustPvP
+    reward_keysamount:
+      - 4
+  'kills3':
+    name: 'KillMaster III'
+    gui_item: IRON_SWORD
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KillMaster III'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zabojstwa: &c{AMOUNT}&8/&a600'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &62500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &62 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zabojstwa: &a{AMOUNT}&8/&a600'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &62500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &62 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: KILLS
+    amount_toachivment: 600
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 2500
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 2
+      - 2
+  'kills4':
+    name: 'KillMaster IV'
+    gui_item: IRON_SWORD
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KillMaster IV'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zabojstwa: &c{AMOUNT}&8/&a850'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &66000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &64 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zabojstwa: &a{AMOUNT}&8/&a850'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &66000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &64 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: KILLS
+    amount_toachivment: 850
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 6000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 4
+      - 4
+  'kills5':
+    name: 'KillMaster V'
+    gui_item: GOLD_SWORD
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KillMaster V'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zabojstwa: &c{AMOUNT}&8/&a1500'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &610000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &66 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zabojstwa: &a{AMOUNT}&8/&a1500'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &610000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &66 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: KILLS
+    amount_toachivment: 1500
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 10000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 6
+      - 4
+  'kills6':
+    name: 'KillMaster VI'
+    gui_item: GOLD_SWORD
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KillMaster VI'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zabojstwa: &c{AMOUNT}&8/&a2250'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &615000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &68 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &65 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zabojstwa: &a{AMOUNT}&8/&a2250'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &615000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &68 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &65 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: KILLS
+    amount_toachivment: 2250
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 15000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 8
+      - 5
+  'kills7':
+    name: 'KillMaster VII'
+    gui_item: DIAMOND_SWORD
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KillMaster VII'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Trudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zabojstwa: &c{AMOUNT}&8/&a4000'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &620000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &610 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &65 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Trudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zabojstwa: &a{AMOUNT}&8/&a4000'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &620000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &610 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &65 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: KILLS
+    amount_toachivment: 4000
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 20000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 10
+      - 5
+  'kills8':
+    name: 'KillMaster VIII'
+    gui_item: DIAMOND_SWORD
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KillMaster VIII'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLegendarny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zabojstwa: &c{AMOUNT}&8/&a8000'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &630000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &612 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &610 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLegendardny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zabojstwa: &a{AMOUNT}&8/&a8000'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &630000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &612 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &610 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: KILLS
+    amount_toachivment: 8000
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 30000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 12
+      - 10
+  'koxeat1':
+    name: 'KoxMaster I'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 1
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KoxMaster I'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Koxy: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &64 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Koxy: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &64 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_KOX
+    amount_toachivment: 16
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 0
+    reward_keys:
+      - JustPvP
+    reward_keysamount:
+      - 4
+  'koxeat2':
+    name: 'KoxMaster II'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 1
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KoxMaster II'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Koxy: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &63500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &67 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Koxy: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &63500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &67 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_KOX
+    amount_toachivment: 32
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 3500
+    reward_keys:
+      - JustPvP
+    reward_keysamount:
+      - 7
+  'koxeat3':
+    name: 'KoxMaster III'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 1
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KoxMaster III'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Koxy: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &64500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &68 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Koxy: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &64500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &68 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_KOX
+    amount_toachivment: 48
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 4500
+    reward_keys:
+      - JustPvP
+    reward_keysamount:
+      - 8
+  'koxeat4':
+    name: 'KoxMaster IV'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 1
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KoxMaster IV'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Koxy: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &66500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &63 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Koxy: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &66500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &63 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_KOX
+    amount_toachivment: 92
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 6500
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 2
+      - 3
+  'koxeat5':
+    name: 'KoxMaster V'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 1
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KoxMaster V'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Koxy: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &66000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &64 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Koxy: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &66000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &64 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_KOX
+    amount_toachivment: 128
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 6000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 4
+      - 4
+  'koxeat6':
+    name: 'KoxMaster VI'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 1
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KoxMaster VI'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Koxy: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &67500'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+      - '    &8* &7Zelazna &7Zbroja 3/2'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Koxy: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &67500'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+      - '    &8* &7Zelazna &7Zbroja 3/2'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_KOX
+    amount_toachivment: 168
+    rewardslist:
+      - 'IRON_HELMET'
+      - 'IRON_CHESTPLATE'
+      - 'IRON_LEGGINGS'
+      - 'IRON_BOOTS'
+    rewardsdata:
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+    rewardsamount:
+      - '1'
+      - '1'
+      - '1'
+      - '1'
+    rewardsenchantment:
+      - 'prot;unbreaking'
+      - 'prot;unbreaking'
+      - 'prot;unbreaking'
+      - 'prot;unbreaking'
+    rewardsenchantmentlevel:
+      - '3;2'
+      - '3;2'
+      - '3;2'
+      - '3;2'
+    rewardmoney: 7500
+    reward_keys:
+      - ChestPvP
+    reward_keysamount:
+      - 4
+  'koxeat7':
+    name: 'KoxMaster VII'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 1
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KoxMaster VII'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Trudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Koxy: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &612000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &69 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &68 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Trudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Koxy: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &612000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &69 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &68 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_KOX
+    amount_toachivment: 208
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 12000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 9
+      - 8
+  'koxeat8':
+    name: 'KoxMaster VIII'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 1
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3KoxMaster VIII'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLegendarny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Koxy: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &615000'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &68 szt.'
+      - '    &8* &7Zelazna &7Zbroja 4/2'
+      - '    &8* &7Zelazny &7Miecz 4/2/2'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Koxy: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &615000'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &68 szt.'
+      - '    &8* &7Zelazna &7Zbroja 4/2'
+      - '    &8* &7Zelazny &7Miecz 4/2/2'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_KOX
+    amount_toachivment: 368
+    rewardslist:
+      - 'IRON_HELMET'
+      - 'IRON_CHESTPLATE'
+      - 'IRON_LEGGINGS'
+      - 'IRON_BOOTS'
+      - 'IRON_SWORD'
+    rewardsdata:
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+    rewardsamount:
+      - '1'
+      - '1'
+      - '1'
+      - '1'
+      - '1'
+    rewardsenchantment:
+      - 'prot;unbreaking'
+      - 'prot;unbreaking'
+      - 'prot;unbreaking'
+      - 'prot;unbreaking'
+      - 'sharp;unbreaking;fire'
+    rewardsenchantmentlevel:
+      - '4;2'
+      - '4;2'
+      - '4;2'
+      - '4;2'
+      - '4;2;2'
+    rewardmoney: 15000
+    reward_keys:
+      - ChestPvP
+    reward_keysamount:
+      - 8
+  'openchest1':
+    name: 'Izak I'
+    gui_item: CHEST
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Izak I'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Otworzone Skrzynkii: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &6500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &63 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Otworzone Skrzynkii: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &6500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &63 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: OPEN_CHEST
+    amount_toachivment: 24
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 500
+    reward_keys:
+      - JustPvP
+    reward_keysamount:
+      - 3
+  'openchest2':
+    name: 'Izak II'
+    gui_item: CHEST
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Izak II'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Otworzone Skrzynkii: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &61500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &65 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Otworzone Skrzynkii: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &61500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &65 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: OPEN_CHEST
+    amount_toachivment: 40
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 1500
+    reward_keys:
+      - JustPvP
+    reward_keysamount:
+      - 5
+  'openchest3':
+    name: 'Izak III'
+    gui_item: CHEST
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Izak III'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Otworzone Skrzynkii: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &62000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &62 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Otworzone Skrzynkii: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &62000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &62 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: OPEN_CHEST
+    amount_toachivment: 70
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 2000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 2
+      - 2
+  'openchest4':
+    name: 'Izak IV'
+    gui_item: CHEST
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Izak IV'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Otworzone Skrzynkii: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &63200'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &64 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Otworzone Skrzynkii: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &63200'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &64 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: OPEN_CHEST
+    amount_toachivment: 102
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 3200
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 4
+      - 4
+  'openchest5':
+    name: 'Izak V'
+    gui_item: CHEST
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Izak V'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Otworzone Skrzynkii: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &64800'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &63 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &67 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Otworzone Skrzynkii: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &64800'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &65 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: OPEN_CHEST
+    amount_toachivment: 162
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 3500
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 2
+      - 5
+  'openchest6':
+    name: 'Izak VI'
+    gui_item: CHEST
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Izak VI'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Otworzone Skrzynkii: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &66000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &65 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &610 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Otworzone Skrzynkii: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &66000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &65 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &610 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: OPEN_CHEST
+    amount_toachivment: 224
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 6000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 5
+      - 10
+  'openchest7':
+    name: 'Izak VII'
+    gui_item: CHEST
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Izak VII'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Otworzone Skrzynkii: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &610000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &612 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Otworzone Skrzynkii: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &610000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &612 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: OPEN_CHEST
+    amount_toachivment: 260
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 10000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 2
+      - 12
+  'openchest8':
+    name: 'Izak VIII'
+    gui_item: CHEST
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Izak VIII'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Trudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Otworzone Skrzynkii: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &615000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &616 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &615 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Trudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Otworzone Skrzynkii: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &615000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &616 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &615 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: OPEN_CHEST
+    amount_toachivment: 364
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 15000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 16
+      - 15
+  'throwpearl1':
+    name: 'EnderMan I'
+    gui_item: ENDER_PEARL
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3EnderMan I'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Rzucone Perly: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &61000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Rzucone Perly: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &61000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: THROW_PEARL
+    amount_toachivment: 3
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 1000
+    reward_keys:
+      - JustPvP
+    reward_keysamount:
+      - 2
+  'throwpearl2':
+    name: 'EnderMan II'
+    gui_item: ENDER_PEARL
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3EnderMan II'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Rzucone Perly: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &62000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &62 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Rzucone Perly: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &62000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &62 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: THROW_PEARL
+    amount_toachivment: 12
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 2000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 2
+      - 2
+  'throwpearl3':
+    name: 'EnderMan III'
+    gui_item: ENDER_PEARL
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3EnderMan III'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Rzucone Perly: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &65000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &61 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Rzucone Perly: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &65000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &61 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: THROW_PEARL
+    amount_toachivment: 24
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 5000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 1
+      - 4
+  'throwpearl4':
+    name: 'EnderMan IV'
+    gui_item: ENDER_PEARL
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3EnderMan IV'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Rzucone Perly: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &67500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &63 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &63 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Rzucone Perly: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &67500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &63 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &63 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: THROW_PEARL
+    amount_toachivment: 40
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 7500
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 3
+      - 3
+  'throwpearl5':
+    name: 'EnderMan V'
+    gui_item: ENDER_PEARL
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3EnderMan V'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Rzucone Perly: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &65000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &67 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &63 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Rzucone Perly: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &65000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &67 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &63 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: THROW_PEARL
+    amount_toachivment: 62
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 5000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 7
+      - 3
+  'throwpearl6':
+    name: 'EnderMan VI'
+    gui_item: ENDER_PEARL
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3EnderMan VI'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Rzucone Perly: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &68000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &63 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &66 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Rzucone Perly: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &68000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &63 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &66 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: THROW_PEARL
+    amount_toachivment: 82
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 8000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 3
+      - 6
+  'throwpearl7':
+    name: 'EnderMan VII'
+    gui_item: ENDER_PEARL
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3EnderMan VII'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Rzucone Perly: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &612000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &64 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &65 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Rzucone Perly: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &612000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &64 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &65 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: THROW_PEARL
+    amount_toachivment: 108
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 12000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 4
+      - 5
+  'throwpearl8':
+    name: 'EnderMan VIII'
+    gui_item: ENDER_PEARL
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3EnderMan VIII'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Trudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Rzucone Perly: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &615000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &68 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &612 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Trudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Rzucone Perly: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &615000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &68 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &612 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: THROW_PEARL
+    amount_toachivment: 142
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 15000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 8
+      - 12
+  'eatrefil1':
+    name: 'Grubasek I'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Grubasek I'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Refille: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &6850'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &63 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Refille: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &6850'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &63 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_REFIL
+    amount_toachivment: 48
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 850
+    reward_keys:
+      - JustPvP
+    reward_keysamount:
+      - 3
+  'eatrefil2':
+    name: 'Grubasek II'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Grubasek II'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Refille: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &61250'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Zlote Jablka (Koxy): &66szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Refille: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &61250'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Zlote Jablka (Koxy): &66szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_REFIL
+    amount_toachivment: 102
+    rewardslist:
+      - 'GOLDEN_APPLE'
+    rewardsdata:
+      - '1'
+    rewardsamount:
+      - '6'
+    rewardsenchantment:
+      - ''
+    rewardsenchantmentlevel:
+      - ''
+    rewardmoney: 1250
+    reward_keys:
+      - JustPvP
+    reward_keysamount:
+      - 2
+  'eatrefil3':
+    name: 'Grubasek III'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Grubasek III'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Refille: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &62000'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &62 szt.'
+      - '    &8* &7Bloki Diamentu: &612szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Refille: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &62000'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &62 szt.'
+      - '    &8* &7Bloki Diamentu: &612szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_REFIL
+    amount_toachivment: 204
+    rewardslist:
+      - 'DIAMOND_BLOCK'
+    rewardsdata:
+      - '0'
+    rewardsamount:
+      - '12'
+    rewardsenchantment:
+      - ''
+    rewardsenchantmentlevel:
+      - ''
+    rewardmoney: 2000
+    reward_keys:
+      - ChestPvP
+    reward_keysamount:
+      - 2
+  'eatrefil4':
+    name: 'Grubasek IV'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Grubasek IV'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Refille: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &64500'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &65 szt.'
+      - '    &8* &7Bloki Diamentu: &620szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Refille: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &64500'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &65 szt.'
+      - '    &8* &7Bloki Diamentu: &620szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_REFIL
+    amount_toachivment: 328
+    rewardslist:
+      - 'DIAMOND_BLOCK'
+    rewardsdata:
+      - '0'
+    rewardsamount:
+      - '20'
+    rewardsenchantment:
+      - ''
+    rewardsenchantmentlevel:
+      - ''
+    rewardmoney: 4500
+    reward_keys:
+      - ChestPvP
+    reward_keysamount:
+      - 5
+  'eatrefil5':
+    name: 'Grubasek V'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Grubasek V'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Refille: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &66500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &65 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &63 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Refille: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &66500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &65 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &63 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_REFIL
+    amount_toachivment: 418
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 6500
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 5
+      - 3
+  'eatrefil6':
+    name: 'Grubasek VI'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Grubasek VI'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Refille: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &68500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &68 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Refille: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &68500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &68 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_REFIL
+    amount_toachivment: 508
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 8500
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 8
+      - 4
+  'eatrefil7':
+    name: 'Grubasek VII'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Grubasek VII'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Refille: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &612500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &610 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &68 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Refille: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &612500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &610 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &68 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_REFIL
+    amount_toachivment: 612
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 12500
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 10
+      - 8
+  'eatrefil8':
+    name: 'Grubasek VIII'
+    gui_item: GOLDEN_APPLE
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Grubasek VIII'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Trudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Zjedzone Refille: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &615000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &620 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &612 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Trudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Zjedzone Refille: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &615000'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &620 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &612 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: EAT_REFIL
+    amount_toachivment: 746
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 15000
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 20
+      - 12
+  'breakstone1':
+    name: 'Buzkaa I'
+    gui_item: DIRT
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Buzkaa I'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Wykopany Kamien: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &6500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Latwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Wykopany Kamien: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &6500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: BREAK_STONE
+    amount_toachivment: 250
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 750
+    reward_keys:
+      - JustPvP
+    reward_keysamount:
+      - 2
+  'breakstone2':
+    name: 'Buzkaa II'
+    gui_item: GRASS
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Buzkaa II'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Wykopany Kamien: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &62500'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &62 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Wykopany Kamien: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &62500'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &62 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: BREAK_STONE
+    amount_toachivment: 1500
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 2500
+    reward_keys:
+      - ChestPvP
+    reward_keysamount:
+      - 2
+  'breakstone3':
+    name: 'Buzkaa III'
+    gui_item: GRASS
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Buzkaa III'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Wykopany Kamien: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &64500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &65 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &62 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cLatwy'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Wykopany Kamien: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &64500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &65 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &62 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: BREAK_STONE
+    amount_toachivment: 2500
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 4500
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 5
+      - 2
+  'breakstone4':
+    name: 'Buzkaa IV'
+    gui_item: COBBLESTONE
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Buzkaa IV'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Wykopany Kamien: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &66500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &63 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &65 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Wykopany Kamien: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &66500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &63 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &65 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: BREAK_STONE
+    amount_toachivment: 5000
+    rewardslist:
+    rewardsdata:
+    rewardsamount:
+    rewardsenchantment:
+    rewardsenchantmentlevel:
+    rewardmoney: 6500
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 3
+      - 5
+  'breakstone5':
+    name: 'Buzkaa V'
+    gui_item: COBBLESTONE
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Buzkaa V'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Wykopany Kamien: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &65500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+      - '    &8* &7Zelazny Kilof: &63/2/3 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cSrednii'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Wykopany Kamien: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &65500'
+      - '    &8* &7Klucz Do Skrzynii JustPvP: &62 szt.'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &64 szt.'
+      - '    &8* &7Zelazny Kilof: &63/2/3 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: BREAK_STONE
+    amount_toachivment: 8000
+    rewardslist:
+      - 'IRON_PICKAXE'
+    rewardsdata:
+      - '0'
+    rewardsamount:
+      - '1'
+    rewardsenchantment:
+      - 'efficiency;unbreaking;fortune'
+    rewardsenchantmentlevel:
+      - '3;2;3'
+    rewardmoney: 5500
+    reward_keys:
+      - JustPvP
+      - ChestPvP
+    reward_keysamount:
+      - 2
+      - 4
+  'breakstone6':
+    name: 'Buzkaa VI'
+    gui_item: STONE
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Buzkaa VI'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Wykopany Kamien: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &67500'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &66 szt.'
+      - '    &8* &7Zelazny Kilof: &65/2/3 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Wykopany Kamien: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &67500'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &66 szt.'
+      - '    &8* &7Zelazny Kilof: &65/2/3 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: BREAK_STONE
+    amount_toachivment: 14000
+    rewardslist:
+      - 'IRON_PICKAXE'
+    rewardsdata:
+      - '0'
+    rewardsamount:
+      - '1'
+    rewardsenchantment:
+      - 'efficiency;unbreaking;fortune'
+    rewardsenchantmentlevel:
+      - '5;2;3'
+    rewardmoney: 7500
+    reward_keys:
+      - ChestPvP
+    reward_keysamount:
+      - 6
+  'breakstone7':
+    name: 'Buzkaa VII'
+    gui_item: STONE
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Buzkaa VII'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Wykopany Kamien: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &610000'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &65 szt.'
+      - '    &8* &7Diamentowy Kilof: &64/2/3 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cTrudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Wykopany Kamien: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &610000'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &65 szt.'
+      - '    &8* &7Diamentowy Kilof: &64/2/3 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: BREAK_STONE
+    amount_toachivment: 50000
+    rewardslist:
+      - 'DIAMOND_PICKAXE'
+    rewardsdata:
+      - '0'
+    rewardsamount:
+      - '1'
+    rewardsenchantment:
+      - 'efficiency;unbreaking;fortune'
+    rewardsenchantmentlevel:
+      - '4;2;3'
+    rewardmoney: 10000
+    reward_keys:
+      - ChestPvP
+    reward_keysamount:
+      - 5
+  'breakstone8':
+    name: 'Buzkaa VIII'
+    gui_item: OBSIDIAN
+    gui_itemdata: 0
+    gui_itemname: '&8|->> &7Osiagniecie &8* &3Buzkaa VIII'
+    gui_itemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Trudny'
+      - '    &8* &7Postep: &c{PROCENT}%'
+      - '    &8* &7Wykopany Kamien: &c{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &625000'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &620 szt.'
+      - '    &8* &7Diamentowy Kilof: &65/2/3 szt.'
+    gui_seconditemlore:
+      - '  &8->> &9Informacje:'
+      - '    &8* &7Poziom Trudnosci: &cBardzo Trudny'
+      - '    &8* &7Postep: &a{PROCENT}% &8(&aWykonane&8)'
+      - '    &8* &7Wykopany Kamien: &a{AMOUNT}&8/&a{REACHAMOUNT}'
+      - ''
+      - ''
+      - '  &8->> &9Nagrody:'
+      - '    &8* &7Monety: &625000'
+      - '    &8* &7Klucz Do Skrzynii ChestPvP: &620 szt.'
+      - '    &8* &7Diamentowy Kilof: &65/2/3 szt.'
+      - ''
+      - ''
+      - '    &8|->> &aOsiagniecie zostalo zdobyte'
+    osiagniecietype: BREAK_STONE
+    amount_toachivment: 125000
+    rewardslist:
+      - 'DIAMOND_PICKAXE'
+    rewardsdata:
+      - '0'
+    rewardsamount:
+      - '1'
+    rewardsenchantment:
+      - 'efficiency;unbreaking;fortune'
+    rewardsenchantmentlevel:
+      - '5;2;3'
+    rewardmoney: 25000
+    reward_keys:
+      - ChestPvP
+    reward_keysamount:
+      - 20
+gui:
+  inventoryname: '&7Osiagniecia Menu'
+  itemname:
+    breakstone: '&8* &7Osiagniecia &3do wykopania'
+    eatkox: '&8* &7Osiagniecia &3zjedzonych koxow'
+    kills: '&8* &7Osiagniecia &3zabojstw'
+    openchest: '&8* &7Osiagniecia &3otworzonych skrzynek'
+    throwpearl: '&8* &7Osiagniecia &3rzuconych perel'
+    eatrefil: '&8* &7Osiagniecia &3zjedzonych refilii'
+    spendtime: '&8* &7Osiagniecia &3spedzonego czasu'
+

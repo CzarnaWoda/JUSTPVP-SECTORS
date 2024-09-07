@@ -1,0 +1,64 @@
+effects:
+  1:
+    name: '&8->> &7Efekt &8* &9Speed &a&nI'
+    lore:
+      - ''
+      - '&8  * &7Koszt: &a2750$'
+      - '&8  * &7Dlugosc: &a120s'
+      - ''
+    cost: 2750
+    potionEffect: SPEED
+    duration: 2400
+    amplifer: 0
+    material: FEATHER
+  2:
+    name: '&8->> &7Efekt &8* &9Regeneration &a&nI'
+    lore:
+      - ''
+      - '&8  * &7Koszt: &a1500$'
+      - '&8  * &7Dlugosc: &a100s'
+      - ''
+    cost: 1500
+    potionEffect: REGENERATION
+    duration: 2000
+    amplifer: 0
+    material: GOLDEN_APPLE
+  3:
+    name: '&8->> &7Efekt &8* &9Jump Boost &a&nI'
+    lore:
+      - ''
+      - '&8  * &7Koszt: &a1000$'
+      - '&8  * &7Dlugosc: &a120s'
+      - ''
+    cost: 1000
+    potionEffect: JUMP
+    duration: 2400
+    amplifer: 0
+    material: DIAMOND_BOOTS
+  4:
+    name: '&8->> &7Efekt &8* &9Haste &a&nI'
+    lore:
+      - ''
+      - '&8  * &7Koszt: &a5000$'
+      - '&8  * &7Dlugosc: &a200s'
+      - ''
+    cost: 5000
+    potionEffect: FAST_DIGGING
+    duration: 4000
+    amplifer: 0
+    material: DIAMOND_PICKAXE
+  5:
+    name: '&8->> &7Efekt &8* &9Haste &a&nII'
+    lore:
+      - ''
+      - '&8  * &7Koszt: &a9000$'
+      - '&8  * &7Dlugosc: &a200s'
+      - ''
+    cost: 9000
+    potionEffect: FAST_DIGGING
+    duration: 4000
+    amplifer: 1
+    material: DIAMOND_PICKAXE
+
+
+

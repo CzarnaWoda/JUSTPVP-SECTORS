@@ -1,0 +1,92 @@
+random-drops:
+  Diamenty:
+    chance: 1.0
+    vipchance: 0.5
+    turbodropchance: 2.5
+    bonuschance: 0.1
+    exp: 4
+    pkt: 4
+    fortune: true
+    message: '&8->> &7Trafiles na: &3DIAMENT&7! &8(&4{AMOUNT} &7szt&8) &a+&2{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 2
+    drop:
+      what: DIAMOND
+      from: STONE
+  Zloto:
+    chance: 1.2
+    vipchance: 0.5
+    turbodropchance: 2.5
+    bonuschance: 0.2
+    exp: 2
+    pkt: 2
+    fortune: true
+    message: '&8->> &7Trafiles na: &6ZLOTO&7! &8(&4{AMOUNT} &7szt&8) &a+&2{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 2
+    drop:
+      what: GOLD_INGOT
+      from: STONE
+  Zelazo:
+    chance: 1.5
+    vipchance: 0.5
+    turbodropchance: 2.5
+    bonuschance: 0.2
+    exp: 4
+    pkt: 4
+    fortune: true
+    message: '&8->> &7Trafiles na: &5ZELAZO&7! &8(&4{AMOUNT} &7szt&8) &a+&2{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 2
+    drop:
+      what: IRON_INGOT
+      from: STONE
+  Perla:
+    chance: 0.02
+    vipchance: 0.04
+    turbodropchance: 0.05
+    bonuschance: 0.01
+    exp: 32
+    pkt: 32
+    fortune: true
+    message: '&8->> &7Trafiles na: &3&lPERLA&7! &8(&4{AMOUNT} &7szt&8) &a+&2{PKT} &7pkt'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 256
+    amount:
+      min: 1
+      max: 2
+    drop:
+      what: ENDER_PEARL
+      from: STONE
+cancel-drops:
+  - DIAMOND_ORE
+  - COAL_ORE
+  - REDSTONE_ORE
+  - GOLD_ORE
+  - IRON_ORE
+  - EMERALD_ORE
+  - LAPIS_ORE
+exp-drops:
+  STONE: 1
+  OBSIDIAN: 5

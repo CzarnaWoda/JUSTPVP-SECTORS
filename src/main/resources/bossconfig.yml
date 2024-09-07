@@ -1,0 +1,23 @@
+#nie dziala XD kiedys zrobie
+boss:
+  effect:
+    - INCREASE_DAMAGE
+    - SPEED
+    - JUMP
+  health: 2000
+  name: '&c&lBoss JustPvP.PL'
+  message:
+    actionbar: '&6HP Bossa &c({HP}&8/&c{FULLHP})'
+broadcast:
+  enable: true
+  message: '&6Boss JustPvP.PL Zawital Na: X:{X} Y:{Y} Z:{Z}'
+console:
+  message: 'Boss zostal utworzony na mapie !!!'
+message:
+  death: '&cBoss zostal zabity przez: &4{PLAYER} &2&LGZ'
+  prefix: '&6&lBoss&c&lX &6'
+  reload: '&6&lBoss&c&lX &2Nastapil Reload Pliku &c&lconfig.yml &2!'
+sound:
+  enable: true
+gui:
+  name: '&c&lBoss Rewards'

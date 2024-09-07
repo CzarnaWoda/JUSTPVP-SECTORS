@@ -1,0 +1,45 @@
+rewards:
+  '1':
+    name: '&cZbroja Starozytnych'
+    item: DIAMOND_CHESTPLATE
+    amount: 1
+    data: 0
+    enchantments:
+    - prot
+    - unbreaking
+    enchantlevel:
+    - 4
+    - 2
+  '2':
+    name: '&cHelm Starozytnych'
+    item: DIAMOND_HELMET
+    amount: 1
+    data: 0
+    enchantments:
+    - prot
+    - unbreaking
+    enchantlevel:
+    - 4
+    - 2
+  '3':
+    name: '&cButy Starozytnych'
+    item: DIAMOND_BOOTS
+    amount: 1
+    data: 0
+    enchantments:
+    - prot
+    - unbreaking
+    enchantlevel:
+    - 4
+    - 2
+  '4':
+    name: '&cSpodnie Starozytnych'
+    item: DIAMOND_LEGGINGS
+    amount: 1
+    data: 0
+    enchantments:
+    - prot
+    - unbreaking
+    enchantlevel:
+    - 4
+    - 2

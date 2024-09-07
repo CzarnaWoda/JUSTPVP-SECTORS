@@ -1,0 +1,6 @@
+name: JustPvP-FinalCore
+main: pl.blackwater.core.Core
+version: 1.9.0
+author: CzarnaWoda
+description: CorePlugin Stworzony Przez BlackWater/CzarnaWoda Dla JustPvP.PL
+depend: [WorldGuard]

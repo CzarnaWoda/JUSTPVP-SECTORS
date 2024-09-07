@@ -1,0 +1,7 @@
+guildeffects:
+  1:
+    material: POTION
+    data: 16423
+    potioneffecttype: INCREASE_DAMAGE
+    duration: 300
+    amplifer: 0

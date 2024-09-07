@@ -1,0 +1,34 @@
+sectors:
+  'spawn1':
+    name: spawn1
+    type: SPAWN
+  'spawn2':
+    name: spawn2
+    type: SPAWN
+  'spawn3':
+    name: spawn3
+    type: SPAWN
+  'spawn4':
+    name: spawn4
+    type: SPAWN
+  'spawn5':
+    name: spawn5
+    type: SPAWN
+  'spawn6':
+    name: spawn6
+    type: SPAWN
+  'spawn7':
+    name: spawn7
+    type: SPAWN
+  'spawn8':
+    name: spawn8
+    type: SPAWN
+  'spawn9':
+    name: spawn9
+    type: SPAWN
+  'magazyn':
+    name: magazyn
+    type: STORAGE
+  'kopalnia':
+    name: kopalnia
+    type: MINE

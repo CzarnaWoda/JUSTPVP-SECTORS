@@ -1,0 +1,4 @@
+backup:
+  automatic:
+    #in seconds, after reload works change
+    delay: 1500
